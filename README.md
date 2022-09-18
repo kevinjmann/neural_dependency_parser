@@ -4,9 +4,9 @@ This is a modification of the transformer architecture in an attempt to create a
 
 The training data (not currently included in the repo) was created from the [Universal Dependencies Treebank](https://universaldependencies.org/) dataset where I took a subset of the trees that were easily alignable with data from [WALS](https://wals.info/). The training outputs were generated from this subset of trees by using a rule based parser (included in the repo) that could use the actions: 
 1. Shift - Move first element of buffer to the top of the stack.
-2. Left - draw left arc
-3. Right - draw right arc
-4. Insert - Takes the top element of the stack and inserts it after the first element in the buffer in order to salvage crossing branches present in the data.
+2. Left - Draw left arc
+3. Right - Draw right arc
+4. Insert - Take the top element of the stack and insert it after the first element in the buffer in order to salvage crossing branches present in the data.
 
 The language features from WALS were chosen based off an educated guess as to what would most influence word order:
 1. word order -
