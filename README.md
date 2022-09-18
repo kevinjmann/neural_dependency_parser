@@ -47,4 +47,4 @@ The original Transformer implementation mainly follows the same structure as thi
 
 # Current state
 
-So far only low accuracy has been achieved. I think this is mainly due to separating the output and the relatively low amount of training data. In the future, I plan to combine the two outputs into combination values. More effort can be made in selecting the best language features, and coming up with a better way to incorporate them into the network. I was conservative in aligning UD treebank dataset language names and WALS data, leading to me not using the majority of the UD treebank data available.
+So far only low accuracy has been achieved. I think this is mainly due to separating the output and the relatively low amount of training data. In the future, I plan to combine the two outputs into combination parser action dependency relationship label values. More effort can be made in selecting the best language features, and coming up with a better way to incorporate them into the network. I was conservative in aligning UD treebank dataset language names and WALS data, leading to me not using the majority of the UD treebank data available.
